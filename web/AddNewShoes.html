@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add New Shoes Pages</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h2>ADD NEW SHOES</h2>
+    <form action="AddNewShoesServlet">
+        Name: <input type="text" name="shoesName"><br/><br/>
+
+        Type:
+        <select name="shoesType">
+            <option value="balance">Balance</option>
+            <option value="soft">Soft</option>
+            <option value="bounce">Bounce</option>
+        </select><br/><br/>
+
+        Brand:<br/>
+        <input type="radio" name="brand" value="nike" checked> NIKE<br/>
+        <input type="radio" name="brand" value="adidas"> ADIDAS<br/>
+        <input type="radio" name="brand" value="puma"> PUMA<br/><br/>
+
+        Price: <input type="text" name="shoesPrice"><br/><br/>
+
+        <input type="submit" value="ENTER">
+    </form>
+</body>
+</html>
